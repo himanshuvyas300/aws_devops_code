@@ -1,0 +1,21 @@
+AWSTemplateFormatVersion: 2010-09-09
+Description:
+  This template creates an S3 bucket for storing the sample source code.
+Parameters:
+  {}
+Metadata:
+  
+Mappings:
+  
+Conditions:
+  
+Resources:
+  S3Bucket:
+    Type: "AWS::S3::Bucket"
+    Properties:
+      BucketName: "cfn-s3-bucket-test"
+      VersioningConfiguration:
+        Status: "Enabled"
+Transform:
+  
+Outputs:
