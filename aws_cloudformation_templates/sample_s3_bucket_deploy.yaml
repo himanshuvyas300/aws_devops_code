@@ -1,0 +1,7 @@
+# deployment-config.yaml
+template-file-path: ./sample_s3_bucket.yaml
+parameters:
+  # Add any parameters your template needs
+tags:
+  Environment: dev
+  Project: aws-devops
